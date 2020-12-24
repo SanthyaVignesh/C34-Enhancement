@@ -33,9 +33,9 @@ function setup() {
     boxes3[i] = new Blocks(900,100+i*70,70,70);
   }
 
-  ball = new Ball(500,80);
+  ball = new Ball(570,80);
 
-  rope = new Rope(ball.body,{x: 500,y :0});
+  rope = new Rope(ball.body,{x: 570,y :0});
   
 }
 

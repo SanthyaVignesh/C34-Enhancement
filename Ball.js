@@ -5,7 +5,7 @@ class Ball{
             frictionAir : 0.005
         }
         this.body = Bodies.circle(x,y,60,options);
-        this.radius  = 60;
+        this.width  = 120;
         this.image = loadImage("Rock.png");
         World.add(world,this.body);
     }
@@ -17,7 +17,7 @@ class Ball{
         rotate(angle);
         fill("red");
         imageMode(CENTER);
-        image(this.image,0,0,this.radius,this.radius);
+        image(this.image,0,0,this.width,this.width);
         pop();
     }
 }
